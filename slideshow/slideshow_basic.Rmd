@@ -1,6 +1,6 @@
 ---
 title: "Basic slideshow with R markdown"
-author: "Court Campany"
+author: ""
 date: "17 February 2017"
 output: ioslides_presentation
 ---
@@ -24,7 +24,7 @@ output:
 
     css: wtc_custom.css
     
-    logo: img/hielogo.png
+    logo: images/hielogo.png
     
     smaller: yes
     
@@ -86,7 +86,7 @@ You have some control of image placement, but not much
 
 ## Better image placement with CSS
 
-<IMG STYLE="position:absolute; TOP:175px; LEFT:175px; WIDTH:500px; HEIGHT:300px" SRC="images/yoda.jpg">
+<IMG STYLE="position:absolute; TOP:275px; LEFT:175px; WIDTH:400px; HEIGHT:200px" SRC="images/yoda.jpg">
 
 ## Basic text control is pretty easy 
 

@@ -1,7 +1,7 @@
 ---
 title: "Advanced slideshow with R markdown"
 author: "Court Campany"
-date: "16 February 2017"
+date: '`r format(Sys.time(), "%d %B, %Y")`'
 output: 
   ioslides_presentation:
     css: custom.css
@@ -126,12 +126,12 @@ The title slide needs a lot of work.  Browse the custom.css file to see how I ha
 <br />
 <br />
 
-<div style="float: right; width: 60%;">
+<div style="float: right; width: 75%;">
 
 - There are several ways to do this
     + I prefer using HTML <div> tags to define a container for my text
     + This gives me control over the container size
-    + This is create for placing text + images together
+    + This is great for placing text + images together
     + Longer sentences may need a bigger container, making text wrapping prettier
 
 <IMG STYLE="position:absolute; TOP:225px; LEFT:75px; WIDTH:200px; HEIGHT:300px" SRC="images/tower.jpg">
